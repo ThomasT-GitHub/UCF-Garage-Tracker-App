@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ucf-garage-tracker-app",
+  "private_key_id": "10e56022a63129e437c37786a1696ca5b27e4a0b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDF9ns0qEDL/Quw\nynZ0N3hC03WinKmCYnfElj4R58zYg2yzr7hBawUwd4q2IWt+ZJzC+seZREOoLYJ8\nqjzZbkxsT8+8JzsjtX+iN/ATMSke5ZaUGLIiJhjUsntyaYC2rbVVmMW0w9cRZmQf\nLsu/Jn3QrvklkNckZWa/+Oc/KmEPfpYkPTbfny5ccICLgS2cxSi3zi+7wbmp/PpQ\nhzFo32wUrxgNOY4tXUPINpDvAdP1DpEVliELGlzeMWQXbMmrsA1DH5wp9n4YaZh4\nOeDFhDSPCrsudSK9OTvU4fUNEW2me8SeWnu2uBvxMYAybKA77rjD3D9NpVjLZCSA\nC0BjamtDAgMBAAECggEAXurKsjnGL8iZlV/OIfUCvY/kRF63S+PopyKeijlJV7rU\nIOetAfjNWSrIIIGvp7+YBkj18P/xLK79dMavPFWNYRV3djCdQ4bftqj5fEpC/CR6\n6XFZ39PCbiFR3U7Gv1BUtMD2crC/6wDcGrN2T6WmB6wNm7xx22qfNIakYf3w4dso\ntUhcUO50anmcbua6zZ6qHSnGdNjw8MGpUbvKrLWGvzkX5nkNpGu5Q7xMeVSwBH4s\nWgD+aG7XKBl5ebWX0MBgn931FbciLL5AXyXkuZnQXLp6R9I+rgBeBqy1bWxh3EDs\nCJ9sTFukMyAf3JqQ4NO3ukhKnp+IYDB5qGYW4cER+QKBgQDx13gDQP2vZF+eLz3j\nFr2NpB8sFE39yf1GHAiI0b1r1vqKInk3oD4ELgPhZz/TLqbZ3K2Ru0Y3GdkBhfsi\nNW0vrBJ6QRZK/PEJmypq1iuX9r51ev/N6nb8aNgx5fry/2jujCt9WpA50AVi3BB7\ns4shCfsogNR7b7cH9Yq3qQQAfQKBgQDRjWQV8j6MjwDaFDfvzhO7A55uJ0gmUyiT\niGP/osoVg77Xx8LBvHPbRxY+Phedrs1RI+UPuljt1LL3OR1excPkopc5CIInGYt3\nUNNexO/odmqSDSKWXPIzPfg2i1ZCRVpx8wjE3Geev5xOPtHvTk4QZeBdYq9bQzZY\n5O9J9SGmvwKBgAvw+7gNaXlTl3UUGBYydUGdLPzcM82oP51KnRFEafn9L3nKofmh\nK+7A5ugmVPx0fUCcqOVdPeZSnGh62R+jS7Ti5jarKBKj0rMKull0IcrrIBRk8mSU\ngzOLacFs/asp+WBuA2e5JQ31u45aF2ZEQ0ZqW8BwPA2sQnleIm9XJR9xAoGBAJwY\n2gxrFmL4B6dr1jtBZHsz9+mQQ3OhEKHNwMflyOl76Uat3Isayab3bj9RW6AvXWxq\n86/inWoUvnfgyNsXMJR49XMbvnBH3Bc2Uy3OP/QHed1wAWrGs/it2d8vrkLRjM1D\nQC39DQc5LsMuko3T49zdNuP5piyyhaJ0bzfFbZrbAoGAAbHuhiD1+s3lvaKVtOgP\n0iHWyYjtNEQ18o61H4Sl0cBoavRQ2eCqXAV6Yag8b9RnXMpn1fvxdKvmKf6pDodO\nnLH46oVlSUDFOeOb4I5jY6uLs8oy5FbMTEU8bO7wL9qSLOFMza4+Eh2B3GBFKnmv\nQ0ZbtOcViuxrrqKCLsvZ6S8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "play-console-service-account@ucf-garage-tracker-app.iam.gserviceaccount.com",
+  "client_id": "111815307590966518518",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/play-console-service-account%40ucf-garage-tracker-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
