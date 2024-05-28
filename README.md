@@ -2,7 +2,7 @@
 An Android app created to visualize the availability of parking spots at the garages of the University of Central Florida. There is an website version available [here](https://github.com/thomastrivino/UCF-Garage-Tracker-Website)  
 ## [Go to site](https://thomastrivino.github.io/UCF-Garage-Tracker-Website/)  
 
-![PREVIEW](https://raw.githubusercontent.com/thomastrivino/UCF-Garage-Availability-Map-Visualizer/master/ucfGarageMap%20(1).gif)
+![PREVIEW](https://raw.githubusercontent.com/thomastrivino/UCF-Garage-Tracker-App/master/ucf-app-preview.gif?token=GHSAT0AAAAAACR6O4JLNDJEG7MXBHYOGA4QZSVOSNA)
 
 ## How it works
 Tech used: React Native, HTML, CSS, Javascript, Node.js, Puppeteer, Cloud Functions,  Google Maps API, Figma  
