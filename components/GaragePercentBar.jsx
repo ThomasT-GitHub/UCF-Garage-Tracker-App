@@ -28,12 +28,17 @@ export const GaragePercentBar = (props) => {
             <Text style={styles.garageNameText}>Garage {props.garage}</Text>
             <View style={styles.emptyPercentBar}>
                 <View style={[styles.activePercentBar, { width: percentNumber + '%' }, { backgroundColor: props.backgroundColor }]}>
-                    <Text style={styles.percentText}>
+                    <Text style={styles.percentText} numberOfLines={1} ellipsizeMode='clip'>
                         {percentNumber}%
                     </Text>
                 </View>
                 {props.loading && <ActivityIndicator style={styles.loadingWheel} size='large' color='#000000' />}
             </View>
+            <Text style={{
+                fontSize: 10,
+                color: '#777777'
+
+            }}>Available: {props.avail}</Text>
         </>
     );
 }
@@ -56,17 +61,17 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#F5F5F5',
+        overflow: 'hidden',
     },
     garageNameText: {
         fontSize: 20,
         fontWeight: '350',
-        paddingTop: 16,
-        paddingBottom: 16,
+        paddingTop: 24,
+        paddingBottom: 8,
     },
     percentText: {
         fontSize: 20,
         color: '#ffffff',
-
     },
     loadingWheel: {
         position: 'absolute',

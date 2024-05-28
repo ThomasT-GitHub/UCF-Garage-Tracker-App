@@ -60,6 +60,7 @@ export const Body = () => {
                     percent={garageData[garage] ? garageData[garage]['percent'] : 0}
                     backgroundColor={garageData[garage] ? garageData[garage]['percentBarColor'] : '#F5F5F5'}
                     loading={!garageData[garage]}
+                    avail={garageData[garage] ? garageData[garage]['avail'] : 0}
                 />
             ))}
         </ScrollView>
@@ -76,6 +77,6 @@ const styles = StyleSheet.create({
     contentContainer: {
         paddingHorizontal: 16,
         paddingTop: 8,
-        paddingBottom: 175
+        paddingBottom: 200
     },
 });
