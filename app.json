@@ -3,6 +3,9 @@
     "name": "UCF-Garage-Tracker",
     "slug": "UCF-Garage-Tracker",
     "version": "1.0.0",
+    "android": {
+      "package": "com.yourcompany.yourapp"
+    },
     "extra": {
       "eas": {
         "projectId": "8cb21b22-8126-41cb-8aef-88b449abe425"
