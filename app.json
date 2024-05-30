@@ -4,7 +4,7 @@
     "slug": "UCF-Garage-Tracker",
     "version": "1.0.0",
     "android": {
-      "package": "com.yourcompany.yourapp"
+      "package": "com.thomastrivino.ucf-garage-tracker"
     },
     "extra": {
       "eas": {
