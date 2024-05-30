@@ -3,26 +3,50 @@
     "preview": {
       "android": {
         "buildType": "apk",
-        "image": "latest"
+        "image": "default" // Specify a specific version of the Docker image here
+      },
+      "ios": {
+        "image": "default" // Specify a specific version of the Docker image here
       }
     },
     "preview2": {
       "android": {
-        "gradleCommand": ":app:assembleRelease"
+        "gradleCommand": ":app:assembleRelease",
+        "image": "default" // Specify a specific version of the Docker image here
+      },
+      "ios": {
+        "image": "default" // Specify a specific version of the Docker image here
       }
     },
     "preview3": {
       "developmentClient": true
     },
     "preview4": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "image": "default" // Specify a specific version of the Docker image here
+      },
+      "ios": {
+        "image": "default" // Specify a specific version of the Docker image here
+      }
     },
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "image": "default" // Specify a specific version of the Docker image here
+      },
+      "ios": {
+        "image": "default" // Specify a specific version of the Docker image here
+      }
     },
     "production": {
-      "image": "latest"
+      "android": {
+        "image": "default" // Specify a specific version of the Docker image here
+      },
+      "ios": {
+        "image": "default" // Specify a specific version of the Docker image here
+      }
     }
   }
 }
