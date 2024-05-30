@@ -2,9 +2,9 @@
   "expo": {
     "name": "UCF-Garage-Tracker",
     "slug": "UCF-Garage-Tracker",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "android": {
-      "package": "com.thomastrivino.ucf-garage-tracker"
+      "package": "com.thomastrivino.ucfgaragetracker"
     },
     "extra": {
       "eas": {
