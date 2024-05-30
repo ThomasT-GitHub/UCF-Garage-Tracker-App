@@ -21,6 +21,8 @@
       "developmentClient": true,
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "image": "latest"
+    }
   }
 }
