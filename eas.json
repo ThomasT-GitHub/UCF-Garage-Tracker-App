@@ -3,7 +3,7 @@
     "preview": {
       "android": {
         "buildType": "apk",
-        "image": "default" // Specify a specific version of the Docker image here
+        "image": "latest" // Specify a specific version of the Docker image here
       },
       "ios": {
         "image": "default" // Specify a specific version of the Docker image here
@@ -42,7 +42,7 @@
     },
     "production": {
       "android": {
-        "image": "default" // Specify a specific version of the Docker image here
+        "image": "latest" // Specify a specific version of the Docker image here
       },
       "ios": {
         "image": "default" // Specify a specific version of the Docker image here
