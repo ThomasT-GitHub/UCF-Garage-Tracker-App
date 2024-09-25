@@ -8,14 +8,7 @@ export const getGarageInfo = async () => {
     let garageData = {};
 
     for (let i = 3; i < 24; i += 4) {
-        // If the garage is I, due to UCF closing the garage, we need to provide place holder information
-        if (i == 23) {
-            // Obtains the relevant 
-            let percent = 0;
-            let avail = 0;
-            let garageLetter = 'I';
-            let percentBarColor = getBarColorFromPercent(percent);
-            let garageIconColor = getGarageIconColorFromPercent(percent);
+        
 
             // Stores the data in a JSON structure
             garageData[garageLetter] = {
