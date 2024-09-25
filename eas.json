@@ -7,10 +7,17 @@
     "preview": {
       "android": {
         "buildType": "apk"
+        "image": "latest"
       }
     },
     "production": {
       "autoIncrement": true
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
     }
   }
 }
