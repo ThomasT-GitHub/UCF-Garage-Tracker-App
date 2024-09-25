@@ -4,27 +4,17 @@ export const getGarageInfo = async () => {
     const response = await fetch('https://ucf-garage-tracker-api.redmushroom-db999b10.eastus.azurecontainerapps.io/garage-data');
     const result = await response.json();
 
-    // Cretes a JSON to store the garage data
+    // Creates a JSON to store the garage data
     let garageData = {};
 
-    for (let i = 3; i < 24; i += 4) {
-        
+    // Iterate through the data, starting from index 3 and going up in steps of 4
+    for (let i = 3; i < result.length; i += 4) {
+        // Obtains the relevant data
+        let garageLetter = result[i - 3][7];  // Assuming result[i - 3] is a string where index 7 is the garage letter
+        let avail = result[i - 2];            // Available spaces
+        let percent = result[i].replace('%', '');  // Removes the percentage symbol from the value
 
-            // Stores the data in a JSON structure
-            garageData[garageLetter] = {
-                percent: percent,
-                avail: avail,
-                percentBarColor: percentBarColor,
-                garageIconColor: garageIconColor
-            };
-
-            break;
-        }
-        
-        // Obtains the relevant 
-        let percent = result[i].replace('%', '');
-        let avail = result[i - 2];
-        let garageLetter = result[i - 3][7];
+        // Get the colors based on the percentage
         let percentBarColor = getBarColorFromPercent(percent);
         let garageIconColor = getGarageIconColorFromPercent(percent);
 
@@ -38,7 +28,8 @@ export const getGarageInfo = async () => {
     }
 
     return garageData;
-}
+};
+
 
 // Assigns a color to a percent value for the percent bars and returns the color
 const getBarColorFromPercent = (percent) => {

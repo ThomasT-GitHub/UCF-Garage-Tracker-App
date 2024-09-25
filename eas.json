@@ -22,5 +22,8 @@
         "image": "latest"
       }
     }
+  },
+  "cli": {
+    "appVersionSource": "remote"
   }
 }
