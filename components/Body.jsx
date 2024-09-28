@@ -31,7 +31,7 @@ export const Body = () => {
 
             // Update state with new data
             setGarageData(data);
-
+            console.log('Garage data:', data);
             // Increment hasUpdatedGarageInfo to trigger re-render
             setHasUpdatedGarageInfo(prevCount => prevCount + 1);
         } catch (error) {

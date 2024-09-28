@@ -3,8 +3,14 @@
     "name": "UCF-Garage-Tracker",
     "slug": "UCF-Garage-Tracker",
     "version": "1.0.1",
+    "orientation": "portrait",
     "android": {
       "package": "com.thomastrivino.ucfgaragetracker"
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",  
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"  
     },
     "extra": {
       "eas": {

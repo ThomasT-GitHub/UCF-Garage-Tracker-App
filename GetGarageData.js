@@ -4,11 +4,12 @@ export const getGarageInfo = async () => {
     const response = await fetch('https://ucf-garage-tracker-api.redmushroom-db999b10.eastus.azurecontainerapps.io/garage-data');
     const result = await response.json();
 
+    
     // Creates a JSON to store the garage data
     let garageData = {};
 
     // Iterate through the data, starting from index 3 and going up in steps of 4
-    for (let i = 3; i < result.length; i += 4) {
+    for (let i = 3; i < 27; i += 4) {
         // Obtains the relevant data
         let garageLetter = result[i - 3][7];  // Assuming result[i - 3] is a string where index 7 is the garage letter
         let avail = result[i - 2];            // Available spaces
